@@ -2,9 +2,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/app')
 def index():
-    return "IT IS FLASK -RSRC"
+    return "IT IS FLASK APP 1 -RSRC"
 
 
 if __name__ == '__main__':
