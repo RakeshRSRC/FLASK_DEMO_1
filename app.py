@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/app')
 def index():
     return "IT IS FLASK -RSRC"
 
